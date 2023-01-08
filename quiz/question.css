@@ -1,0 +1,96 @@
+body{
+	color: #36ba01;
+}
+
+#question-text{
+	margin-bottom: 2rem;
+}
+
+.choice-container{
+	display: flex;
+	margin-bottom: 2.5rem;
+	width: 65%;
+	border-radius: 5px;
+	background: rgb(0,154,34);
+	font-size: 5rem;
+	min-width: 80rem;
+}
+
+.choice-container:hover{
+	cursor: pointer;
+	box-shadow: 0 0.3rem 1.3rem 0 rgba(0,154,34,0.6);
+	transform: scale(1.01);
+	transform: transition 100ms;
+}
+
+.choice-prefix{
+	padding: 2rem 2rem;
+	color: black;
+}
+
+.choice-text{
+	color: rgb(87, 224, 56);
+	padding: 2rem 2rem;
+	width: 100%
+}
+
+.correct{
+	background: linear-gradient(30deg, blue, indigo);
+}
+
+.incorrect{
+	background: linear-gradient(30deg, rgba(230,29,29,1) 0%, rgb(224,11,11,1) 100%);
+}
+
+#question{
+	font-size: 4rem;
+}
+#top{
+	margin-top: 3.3rem;
+	display: flex;
+}
+
+.top-f{
+	text-align: left;
+	font-size: 2.2rem;
+}
+
+.top-main{
+	text-align: center;
+}
+
+#bottom{
+	display: flex;
+	float: right;
+	justify-content: space-between;
+}
+
+.bottom-f{
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.bottom-main{
+	text-align: center;
+}
+
+#progressBar{
+	width: 15rem;
+	height: 2rem;
+	border: 0.1rem solid rgb(11,223,36);
+	margin-top: 1rem;
+	border-radius: 30px;
+	overflow: hidden;
+}
+
+#progressBarFull{
+	height:100%;
+	background: rgb(11,223,36);
+	width: 0%;
+}
+
+@media screen and (max-width 800px){
+	.choice-container{
+		min-width: 45rem;
+	}
+}
