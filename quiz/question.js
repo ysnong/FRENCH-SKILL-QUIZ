@@ -161,7 +161,7 @@ else if (document.title == "Advanced Level Quiz"){
 				{ans: 'Non, je n\'ai allé jamais en France.', correct: false},
 			]
 		},
-		{   question: 'Which sentence is correctly conjugated to futur simple?',
+		{   question: 'Which sentence is correctly conjugated to conditionnel présent?',
 			answers: [
 				{ans: 'Nous voudrions voyager et ils faireraient le tour du monde.', correct: false},
 				{ans: 'Nous voulions voyager et ils feraient le tour du monde.', correct: false},
